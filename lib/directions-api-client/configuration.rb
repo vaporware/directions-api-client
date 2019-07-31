@@ -150,8 +150,7 @@ module GraphHopperClient
 
     # The default Configuration object.
     def self.default
-      #@@default ||= Configuration.new
-      Configuration.new
+      @@default ||= Configuration.new
     end
 
     def configure
